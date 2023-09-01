@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about ul {
+    width: 33.%;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid;
+    padding: 7px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #7E7E7E;
+    padding-left: 10px;
+}
+
+.header-info {
+    margin-left: 900px;
+}
+
+.text-brand {
+    color: #3BB77E;
+}
+
+.level2 {
+    display: block;
+    border-bottom: 1px solid;
+}
+
+.logo a {
+    display: block;
+}
+
+.categorie {
+    display: block;
+    display: flex;
+    align-items: center;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search form {
+    border: 2px solid #BCE3C9;
+    border-radius: 4px;
+    width: 500px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 150px;
+}
+
+span {
+    margin-left: 10px;
+    padding-top: 10px;
+    font-family: "Quicksand", sans-serif;
+    color: #253D4E;
+}
+
+input {
+    width: 383px;
+    height: 48px;
+    line-height: 55px;
+    position: relative;
+}
+
+.headerstore {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.iconstore {
+    padding-right: 50px;
+}
+
+.iconstore a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    
+}
+
+.All-categories a {
+    line-height: 80px;
+    border-radius: 5px;
+    padding: 0 40px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    background-color: #3BB77E;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+.menuright {
+    padding-left: 200px;
+}
+
+.menuright p {
+    color: #3BB77E;
+}
+
+.menuright p {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+    display: block;
+    line-height: 1;
+}
+
+.menuright p span {
+    font-weight: 500;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: #7E7E7E;
+    display: block;
+    letter-spacing: 0.9px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    width: 19%;
+    border: 1px solid #3BB77E;
+    margin-bottom: 10px;
+    border-radius: 10px;
+   
+}
+
+.card img {
+    width: 100%;
+
+}
+
+.card-text {
+    margin-bottom: 5px;
+}
+
+.card-text a {
+    text-decoration: none;
+    color: #253D4E;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #253D4E;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.rating {
+    background-image: url(/crc/img/rating-stars.png);
+    background-position: o -12px;
+    background-repeat: repeat-x;
+    height: 12px;
+    width: 60px;
+    margin-bottom: 5px;
+}
+
+.rating1 {
+    height: 12px;
+    background-repeat: repeat-x;
+    background-image: url(/crc/img/rating-stars\ \(1\).png);
+    background-position: 0 0;
+}
+
+.NestFood a {
+    text-decoration: none;
+}
+
+.price {
+    padding-top: 8px;
+}
+
+.price span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3BB77E;
+}
+
+.price span.oldprice {
+    font-size: 14px;
+    color: #adadad;
+    margin: 0 0 0 7px;
+    text-decoration: line-through;
+}
